@@ -19,3 +19,4 @@ jobs:
       - name: Display Greeting
         run: |
           echo "${{ inputs.greeting }}, ${{ inputs.name }}!"
+          echo "This is a multi-line RUN"
